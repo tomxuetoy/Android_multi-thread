@@ -2,7 +2,6 @@ package com.example.threadtrial;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Looper;
 import android.os.Message;
 import android.app.Activity;
 import android.view.Menu;
@@ -25,6 +24,10 @@ public class MainActivity extends Activity {
 
 		edittext1.setText("___thread1___\n");
 		edittext2.setText("___thread2___\n");
+
+		System.out.println("mainUI--->" + Thread.currentThread().getId());
+		System.out.println("mainUI_name--->"
+				+ Thread.currentThread().getName());
 	}
 
 	@Override
@@ -86,7 +89,7 @@ public class MainActivity extends Activity {
 		@Override
 		public void run() {
 			while (bThreadRun) {
-//				mHandler1.postDelayed(this, 1000);
+				// mHandler1.postDelayed(this, 1000);
 				try {
 					Thread.sleep(300);
 				} catch (InterruptedException e) {
@@ -94,7 +97,12 @@ public class MainActivity extends Activity {
 				}
 				Message message = new Message();
 				message.what = 1;
-				mHandler1.sendMessage(message);				
+				mHandler1.sendMessage(message);
+				
+				System.out.println("Runnable1--->"
+						+ Thread.currentThread().getId());
+				System.out.println("Runnable1_name--->"
+						+ Thread.currentThread().getName());
 			}
 		}
 	}
@@ -106,7 +114,7 @@ public class MainActivity extends Activity {
 		@Override
 		public void run() {
 			while (bThreadRun) {
-//				mHandler2.postDelayed(this, 1000);
+				// mHandler2.postDelayed(this, 1000);
 				try {
 					Thread.sleep(300);
 				} catch (InterruptedException e) {
@@ -114,7 +122,12 @@ public class MainActivity extends Activity {
 				}
 				Message message = new Message();
 				message.what = 2;
-				mHandler2.sendMessage(message);				
+				mHandler2.sendMessage(message);
+
+				System.out.println("Runnable2--->"
+						+ Thread.currentThread().getId());
+				System.out.println("Runnable2_name--->"
+						+ Thread.currentThread().getName());
 			}
 		}
 	}

@@ -1,0 +1,22 @@
+Run result of 'threadtrial_Runnable' Logcat:
+    12-29 23:05:55.165: I/System.out(17450): mainUI--->1
+    12-29 23:05:55.165: I/System.out(17450): mainUI_name--->main
+    12-29 23:05:55.475: I/System.out(17450): Runnable1--->848
+    12-29 23:05:55.475: I/System.out(17450): Runnable1_name--->Thread-848
+    12-29 23:05:55.475: I/System.out(17450): Runnable2--->849
+    12-29 23:05:55.475: I/System.out(17450): Runnable2_name--->Thread-849
+    12-29 23:05:55.610: D/CLIPBOARD(17450): Hide Clipboard dialog at Starting input: finished by someone else... !
+    12-29 23:05:55.775: I/System.out(17450): Runnable1--->848
+    12-29 23:05:55.775: I/System.out(17450): Runnable1_name--->Thread-848
+    12-29 23:05:55.780: I/System.out(17450): Runnable2--->849
+    12-29 23:05:55.780: I/System.out(17450): Runnable2_name--->Thread-849
+    12-29 23:05:56.075: I/System.out(17450): Runnable1--->848
+    12-29 23:05:56.075: I/System.out(17450): Runnable1_name--->Thread-848
+    12-29 23:05:56.080: I/System.out(17450): Runnable2--->849
+    12-29 23:05:56.080: I/System.out(17450): Runnable2_name--->Thread-849
+    12-29 23:05:56.375: I/System.out(17450): Runnable1--->848
+    12-29 23:05:56.375: I/System.out(17450): Runnable1_name--->Thread-848
+    12-29 23:05:56.385: I/System.out(17450): Runnable2--->849
+    12-29 23:05:56.385: I/System.out(17450): Runnable2_name--->Thread-849
+    12-29 23:05:56.820: W/IInputConnectionWrapper(17450): showStatusIcon on inactive InputConnection
+
