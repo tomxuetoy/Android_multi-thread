@@ -25,15 +25,21 @@ public class MainActivity extends Activity {
 		System.out.println("mainUI--->" + Thread.currentThread().getId());
 		System.out
 				.println("mainUI_name--->" + Thread.currentThread().getName());
-		
+
 		MyRunnable mr = new MyRunnable();
 
-		new Thread(mr).start();
-		new Thread(mr).start();
-		new Thread(mr).start();
-		new Thread(mr).start();
-		new Thread(mr).start();
-		new Thread(mr).start();
+		new Thread(mr).start(); // 0
+		System.out.println("Thread 0 starts");
+		new Thread(mr).start(); // 1
+		System.out.println("Thread 1 starts");
+		new Thread(mr).start(); // 2
+		System.out.println("Thread 2 starts");
+		new Thread(mr).start(); // 3
+		System.out.println("Thread 3 starts");
+		new Thread(mr).start(); // 4
+		System.out.println("Thread 4 starts");
+		new Thread(mr).start(); // 5
+		System.out.println("Thread 5 starts");
 	}
 
 	@Override
@@ -65,7 +71,7 @@ public class MainActivity extends Activity {
 							+ Thread.currentThread().getName() + " Index = "
 							+ index++);
 					try {
-						Thread.sleep(1000);
+						Thread.sleep(300);
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}

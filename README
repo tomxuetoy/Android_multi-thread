@@ -52,6 +52,48 @@ Run result of 'TestThread' Logcat: (notice the thread IDs are same)
     12-30 16:10:39.020: I/System.out(20404): Thread ID = Thread-2114 Index = 22
 
 
+    its 2nd commit:
+    12-30 16:36:09.310: I/System.out(24558): mainUI--->1
+    12-30 16:36:09.310: I/System.out(24558): mainUI_name--->main
+    12-30 16:36:09.310: I/System.out(24558): Thread 0 starts
+    12-30 16:36:09.310: I/System.out(24558): Thread 1 starts
+    12-30 16:36:09.315: I/System.out(24558): Thread 2 starts
+    12-30 16:36:09.315: I/System.out(24558): Thread 3 starts
+    12-30 16:36:09.315: I/System.out(24558): Thread 4 starts
+    12-30 16:36:09.315: I/System.out(24558): Thread 5 starts
+    12-30 16:36:09.315: I/System.out(24558): Thread ID = Thread-2726 Index = 0
+    12-30 16:36:09.460: D/CLIPBOARD(24558): Hide Clipboard dialog at Starting input: finished by someone else... !
+    12-30 16:36:09.615: I/System.out(24558): Thread ID = Thread-2726 Index = 1
+    12-30 16:36:09.915: I/System.out(24558): Thread ID = Thread-2726 Index = 2
+    12-30 16:36:10.215: I/System.out(24558): Thread ID = Thread-2726 Index = 3
+    12-30 16:36:10.520: I/System.out(24558): Thread ID = Thread-2726 Index = 4
+    12-30 16:36:10.820: I/System.out(24558): Thread ID = Thread-2726 Index = 5
+    12-30 16:36:11.120: I/System.out(24558): Thread ID = Thread-2726 Index = 6
+    12-30 16:36:11.420: I/System.out(24558): Thread ID = Thread-2726 Index = 7
+    12-30 16:36:11.720: I/System.out(24558): Thread ID = Thread-2726 Index = 8
+    12-30 16:36:12.020: I/System.out(24558): Thread ID = Thread-2726 Index = 9
+    12-30 16:36:12.320: I/System.out(24558): Thread ID = Thread-2726 Index = 10
+    12-30 16:36:12.620: I/System.out(24558): Thread ID = Thread-2726 Index = 11
+    12-30 16:36:12.920: I/System.out(24558): Thread ID = Thread-2726 Index = 12
+    12-30 16:36:13.220: I/System.out(24558): Thread ID = Thread-2726 Index = 13
+    12-30 16:36:13.520: I/System.out(24558): Thread ID = Thread-2726 Index = 14
+    12-30 16:36:13.820: I/System.out(24558): Thread ID = Thread-2726 Index = 15
+    12-30 16:36:14.120: I/System.out(24558): Thread ID = Thread-2726 Index = 16
+    12-30 16:36:14.420: I/System.out(24558): Thread ID = Thread-2726 Index = 17
+    12-30 16:36:14.720: I/System.out(24558): Thread ID = Thread-2726 Index = 18
+    12-30 16:36:15.020: I/System.out(24558): Thread ID = Thread-2726 Index = 19
+    12-30 16:36:15.325: I/System.out(24558): Thread ID = Thread-2726 Index = 20
+    12-30 16:36:15.360: W/IInputConnectionWrapper(24558): showStatusIcon on inactive InputConnection
+    12-30 16:36:15.625: I/System.out(24558): Thread ID = Thread-2726 Index = 21
+    12-30 16:36:15.925: I/System.out(24558): Thread ID = Thread-2726 Index = 22
+    12-30 16:36:16.225: I/System.out(24558): Thread ID = Thread-2726 Index = 23
+    12-30 16:36:16.525: I/System.out(24558): Thread ID = Thread-2726 Index = 24
+    12-30 16:36:16.825: I/System.out(24558): Thread ID = Thread-2726 Index = 25
+
+
+
+
+
 
 Run result of 'TestThread2' Logcat: (notice the thread IDs are different)
     12-30 16:18:15.480: I/System.out(21459): mainUI--->1
