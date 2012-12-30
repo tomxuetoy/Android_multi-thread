@@ -22,7 +22,7 @@ Run result of 'threadtrial_Runnable' Logcat:
 
 
 
-Run result of 'TestThread' Logcat:
+Run result of 'TestThread' Logcat: (notice the thread IDs are same)
     12-30 16:10:17.010: I/System.out(20404): mainUI--->1
     12-30 16:10:17.010: I/System.out(20404): mainUI_name--->main
     12-30 16:10:17.010: I/System.out(20404): Thread ID = Thread-2114 Index = 0
@@ -50,4 +50,54 @@ Run result of 'TestThread' Logcat:
     12-30 16:10:37.020: I/System.out(20404): Thread ID = Thread-2114 Index = 20
     12-30 16:10:38.020: I/System.out(20404): Thread ID = Thread-2114 Index = 21
     12-30 16:10:39.020: I/System.out(20404): Thread ID = Thread-2114 Index = 22
+
+
+
+Run result of 'TestThread2' Logcat: (notice the thread IDs are different)
+    12-30 16:18:15.480: I/System.out(21459): mainUI--->1
+    12-30 16:18:15.480: I/System.out(21459): mainUI_name--->main
+    12-30 16:18:15.645: D/CLIPBOARD(21459): Hide Clipboard dialog at Starting input: finished by someone else... !
+    12-30 16:18:16.480: I/System.out(21459): Thread ID = Thread-2258 Index =0
+    12-30 16:18:16.480: I/System.out(21459): Thread ID = Thread-2259 Index =1
+    12-30 16:18:16.480: I/System.out(21459): Thread ID = Thread-2260 Index =2
+    12-30 16:18:16.480: I/System.out(21459): Thread ID = Thread-2261 Index =3
+    12-30 16:18:16.480: I/System.out(21459): Thread ID = Thread-2262 Index =4
+    12-30 16:18:16.485: I/System.out(21459): Thread ID = Thread-2263 Index =5
+    12-30 16:18:17.480: I/System.out(21459): Thread ID = Thread-2258 Index =6
+    12-30 16:18:17.480: I/System.out(21459): Thread ID = Thread-2259 Index =7
+    12-30 16:18:17.480: I/System.out(21459): Thread ID = Thread-2260 Index =8
+    12-30 16:18:17.480: I/System.out(21459): Thread ID = Thread-2262 Index =9
+    12-30 16:18:17.480: I/System.out(21459): Thread ID = Thread-2261 Index =10
+    12-30 16:18:17.485: I/System.out(21459): Thread ID = Thread-2263 Index =11
+    12-30 16:18:18.485: I/System.out(21459): Thread ID = Thread-2258 Index =12
+    12-30 16:18:18.485: I/System.out(21459): Thread ID = Thread-2259 Index =13
+    12-30 16:18:18.485: I/System.out(21459): Thread ID = Thread-2262 Index =14
+    12-30 16:18:18.485: I/System.out(21459): Thread ID = Thread-2261 Index =15
+    12-30 16:18:18.485: I/System.out(21459): Thread ID = Thread-2260 Index =16
+    12-30 16:18:18.485: I/System.out(21459): Thread ID = Thread-2263 Index =17
+    12-30 16:18:19.485: I/System.out(21459): Thread ID = Thread-2262 Index =18
+    12-30 16:18:19.485: I/System.out(21459): Thread ID = Thread-2261 Index =19
+    12-30 16:18:19.485: I/System.out(21459): Thread ID = Thread-2258 Index =20
+    12-30 16:18:19.485: I/System.out(21459): Thread ID = Thread-2260 Index =21
+    12-30 16:18:19.485: I/System.out(21459): Thread ID = Thread-2263 Index =22
+    12-30 16:18:19.500: I/System.out(21459): Thread ID = Thread-2259 Index =23
+    12-30 16:18:19.620: W/IInputConnectionWrapper(21459): showStatusIcon on inactive InputConnection
+    12-30 16:18:20.485: I/System.out(21459): Thread ID = Thread-2261 Index =24
+    12-30 16:18:20.485: I/System.out(21459): Thread ID = Thread-2260 Index =25
+    12-30 16:18:20.485: I/System.out(21459): Thread ID = Thread-2258 Index =26
+    12-30 16:18:20.485: I/System.out(21459): Thread ID = Thread-2262 Index =27
+    12-30 16:18:20.485: I/System.out(21459): Thread ID = Thread-2263 Index =28
+    12-30 16:18:20.500: I/System.out(21459): Thread ID = Thread-2259 Index =29
+    12-30 16:18:21.485: I/System.out(21459): Thread ID = Thread-2261 Index =30
+    12-30 16:18:21.485: I/System.out(21459): Thread ID = Thread-2262 Index =31
+    12-30 16:18:21.485: I/System.out(21459): Thread ID = Thread-2260 Index =32
+    12-30 16:18:21.485: I/System.out(21459): Thread ID = Thread-2258 Index =33
+    12-30 16:18:21.485: I/System.out(21459): Thread ID = Thread-2263 Index =34
+    12-30 16:18:21.500: I/System.out(21459): Thread ID = Thread-2259 Index =35
+    12-30 16:18:22.485: I/System.out(21459): Thread ID = Thread-2261 Index =36
+    12-30 16:18:22.485: I/System.out(21459): Thread ID = Thread-2262 Index =37
+    12-30 16:18:22.485: I/System.out(21459): Thread ID = Thread-2260 Index =38
+    12-30 16:18:22.490: I/System.out(21459): Thread ID = Thread-2258 Index =39
+    12-30 16:18:22.490: I/System.out(21459): Thread ID = Thread-2263 Index =40
+    12-30 16:18:22.500: I/System.out(21459): Thread ID = Thread-2259 Index =41
 
