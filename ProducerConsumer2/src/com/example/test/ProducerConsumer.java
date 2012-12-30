@@ -1,7 +1,7 @@
 package com.example.test;
 
-public class  ProducerConsumer{
-	public static void main(String[] args){
+public class ProducerConsumer {
+	public static void main(String[] args) {
 		SyncStack ss = new SyncStack();
 		Producer p = new Producer(ss);
 		Consumer c = new Consumer(ss);
@@ -20,6 +20,7 @@ class WoTou {
 		this.Id = Id;
 	}
 
+	// override
 	public String toString() {
 		return "WoTou " + Id;
 	}
@@ -35,36 +36,36 @@ class SyncStack {
 	// 把窝头放在筐里
 	public synchronized void Push(WoTou wt) {
 		while (index == arrWT.length) {
+			System.out.println("basket is full\n" );
 			try {
 				this.wait();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			;
 		}
 		this.notify();
-		arrWT[index] = wt;
+		arrWT[index] = wt;  // 追逐的游戏
 		index++;
 	}
 
-	// 从在筐里拿窝头
+	// 从筐里拿窝头
 	public synchronized WoTou Pop() {
 		while (index == 0) {
+			System.out.println("basket is empty\n" );
 			try {
 				this.wait();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			;
 		}
 		this.notify();
 		index--;
-		return arrWT[index];
+		return arrWT[index];  // 追逐的游戏
 	}
 }
 
 /*
- * 生产者
+ * 生产者: push wrapper
  */
 class Producer implements Runnable {
 	SyncStack ss = null;
@@ -78,9 +79,10 @@ class Producer implements Runnable {
 		for (int i = 0; i < 20; i++) {
 			WoTou wt = new WoTou(i);
 			ss.Push(wt);
+			// will call wt.toString
 			System.out.println("生产了：" + wt);
 			try {
-				Thread.sleep((int) (Math.random() * 200));
+				Thread.sleep((int) (Math.random() * 200));	// change 200 to 1000, frequent empty
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
@@ -89,7 +91,7 @@ class Producer implements Runnable {
 }
 
 /*
- * 消费者
+ * 消费者: pop wapper
  */
 class Consumer implements Runnable {
 	SyncStack ss = null;
@@ -102,9 +104,10 @@ class Consumer implements Runnable {
 	public void run() {
 		for (int i = 0; i < 20; i++) {
 			WoTou wt = ss.Pop();
+			// will call wt.toString
 			System.out.println("消费了：" + wt);
 			try {
-				Thread.sleep((int) (Math.random() * 1000));
+				Thread.sleep((int) (Math.random() * 1000));	// change 1000 to 200, frequent empty
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}

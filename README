@@ -154,37 +154,141 @@ Run result of 'ProducerConsumer2' Console output: (notice the thread IDs are dif
     生产了：WoTou 2
     生产了：WoTou 3
     生产了：WoTou 4
-    消费了：WoTou 4
     生产了：WoTou 5
     生产了：WoTou 6
+    basket is full
+
+    消费了：WoTou 6
     生产了：WoTou 7
+    basket is full
+
     消费了：WoTou 7
     生产了：WoTou 8
+    basket is full
+
     消费了：WoTou 8
+    生产了：WoTou 9
+    basket is full
+
+    消费了：WoTou 9
+    生产了：WoTou 10
+    basket is full
+
+    消费了：WoTou 10
+    生产了：WoTou 11
+    basket is full
+
+    消费了：WoTou 11
+    生产了：WoTou 12
+    basket is full
+
+    消费了：WoTou 12
+    生产了：WoTou 13
+    basket is full
+
+    消费了：WoTou 13
+    生产了：WoTou 14
+    basket is full
+
+    消费了：WoTou 14
+    生产了：WoTou 15
+    basket is full
+
+    消费了：WoTou 15
+    生产了：WoTou 16
+    basket is full
+
+    消费了：WoTou 16
+    生产了：WoTou 17
+    basket is full
+
+    消费了：WoTou 17
+    生产了：WoTou 18
+    basket is full
+
+    消费了：WoTou 18
+    生产了：WoTou 19
+    消费了：WoTou 19
+    消费了：WoTou 5
+    消费了：WoTou 4
+    消费了：WoTou 3
+    消费了：WoTou 2
+    消费了：WoTou 1
+
+
+    change parameters: 200/1000, to usually empty mode
+    生产了：WoTou 0
+    消费了：WoTou 0
+    basket is empty
+
+    生产了：WoTou 1
+    消费了：WoTou 1
+    basket is empty
+
+    生产了：WoTou 2
+    消费了：WoTou 2
+    生产了：WoTou 3
+    消费了：WoTou 3
+    basket is empty
+
+    生产了：WoTou 4
+    消费了：WoTou 4
+    basket is empty
+
+    生产了：WoTou 5
+    消费了：WoTou 5
+    basket is empty
+
+    生产了：WoTou 6
+    消费了：WoTou 6
+    basket is empty
+
+    生产了：WoTou 7
+    消费了：WoTou 7
+    basket is empty
+
+    生产了：WoTou 8
+    消费了：WoTou 8
+    basket is empty
+
     生产了：WoTou 9
     消费了：WoTou 9
     生产了：WoTou 10
     消费了：WoTou 10
+    basket is empty
+
     生产了：WoTou 11
     消费了：WoTou 11
+    basket is empty
+
     生产了：WoTou 12
     消费了：WoTou 12
+    basket is empty
+
     生产了：WoTou 13
     消费了：WoTou 13
+    basket is empty
+
     生产了：WoTou 14
     消费了：WoTou 14
+    basket is empty
+
     生产了：WoTou 15
     消费了：WoTou 15
+    basket is empty
+
     生产了：WoTou 16
     消费了：WoTou 16
+    basket is empty
+
     生产了：WoTou 17
     消费了：WoTou 17
+    basket is empty
+
     生产了：WoTou 18
     消费了：WoTou 18
+    basket is empty
+
     生产了：WoTou 19
     消费了：WoTou 19
-    消费了：WoTou 6
-    消费了：WoTou 5
-    消费了：WoTou 3
-    消费了：WoTou 2
-    消费了：WoTou 1
+
