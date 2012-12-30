@@ -20,3 +20,34 @@ Run result of 'threadtrial_Runnable' Logcat:
     12-29 23:05:56.385: I/System.out(17450): Runnable2_name--->Thread-849
     12-29 23:05:56.820: W/IInputConnectionWrapper(17450): showStatusIcon on inactive InputConnection
 
+
+
+Run result of 'TestThread' Logcat:
+    12-30 16:10:17.010: I/System.out(20404): mainUI--->1
+    12-30 16:10:17.010: I/System.out(20404): mainUI_name--->main
+    12-30 16:10:17.010: I/System.out(20404): Thread ID = Thread-2114 Index = 0
+    12-30 16:10:17.205: D/CLIPBOARD(20404): Hide Clipboard dialog at Starting input: finished by someone else... !
+    12-30 16:10:18.010: I/System.out(20404): Thread ID = Thread-2114 Index = 1
+    12-30 16:10:19.015: I/System.out(20404): Thread ID = Thread-2114 Index = 2
+    12-30 16:10:20.010: I/System.out(20404): Thread ID = Thread-2114 Index = 3
+    12-30 16:10:21.010: I/System.out(20404): Thread ID = Thread-2114 Index = 4
+    12-30 16:10:22.010: I/System.out(20404): Thread ID = Thread-2114 Index = 5
+    12-30 16:10:23.015: I/System.out(20404): Thread ID = Thread-2114 Index = 6
+    12-30 16:10:24.015: I/System.out(20404): Thread ID = Thread-2114 Index = 7
+    12-30 16:10:25.015: I/System.out(20404): Thread ID = Thread-2114 Index = 8
+    12-30 16:10:26.015: I/System.out(20404): Thread ID = Thread-2114 Index = 9
+    12-30 16:10:27.015: I/System.out(20404): Thread ID = Thread-2114 Index = 10
+    12-30 16:10:28.015: I/System.out(20404): Thread ID = Thread-2114 Index = 11
+    12-30 16:10:29.015: I/System.out(20404): Thread ID = Thread-2114 Index = 12
+    12-30 16:10:30.015: I/System.out(20404): Thread ID = Thread-2114 Index = 13
+    12-30 16:10:31.015: I/System.out(20404): Thread ID = Thread-2114 Index = 14
+    12-30 16:10:32.015: I/System.out(20404): Thread ID = Thread-2114 Index = 15
+    12-30 16:10:33.015: I/System.out(20404): Thread ID = Thread-2114 Index = 16
+    12-30 16:10:33.205: W/IInputConnectionWrapper(20404): showStatusIcon on inactive InputConnection
+    12-30 16:10:34.020: I/System.out(20404): Thread ID = Thread-2114 Index = 17
+    12-30 16:10:35.020: I/System.out(20404): Thread ID = Thread-2114 Index = 18
+    12-30 16:10:36.020: I/System.out(20404): Thread ID = Thread-2114 Index = 19
+    12-30 16:10:37.020: I/System.out(20404): Thread ID = Thread-2114 Index = 20
+    12-30 16:10:38.020: I/System.out(20404): Thread ID = Thread-2114 Index = 21
+    12-30 16:10:39.020: I/System.out(20404): Thread ID = Thread-2114 Index = 22
+
