@@ -143,3 +143,48 @@ Run result of 'TestThread2' Logcat: (notice the thread IDs are different)
     12-30 16:18:22.490: I/System.out(21459): Thread ID = Thread-2263 Index =40
     12-30 16:18:22.500: I/System.out(21459): Thread ID = Thread-2259 Index =41
 
+
+
+
+
+Run result of 'ProducerConsumer2' Console output: (notice the thread IDs are different)
+    生产了：WoTou 0
+    消费了：WoTou 0
+    生产了：WoTou 1
+    生产了：WoTou 2
+    生产了：WoTou 3
+    生产了：WoTou 4
+    消费了：WoTou 4
+    生产了：WoTou 5
+    生产了：WoTou 6
+    生产了：WoTou 7
+    消费了：WoTou 7
+    生产了：WoTou 8
+    消费了：WoTou 8
+    生产了：WoTou 9
+    消费了：WoTou 9
+    生产了：WoTou 10
+    消费了：WoTou 10
+    生产了：WoTou 11
+    消费了：WoTou 11
+    生产了：WoTou 12
+    消费了：WoTou 12
+    生产了：WoTou 13
+    消费了：WoTou 13
+    生产了：WoTou 14
+    消费了：WoTou 14
+    生产了：WoTou 15
+    消费了：WoTou 15
+    生产了：WoTou 16
+    消费了：WoTou 16
+    生产了：WoTou 17
+    消费了：WoTou 17
+    生产了：WoTou 18
+    消费了：WoTou 18
+    生产了：WoTou 19
+    消费了：WoTou 19
+    消费了：WoTou 6
+    消费了：WoTou 5
+    消费了：WoTou 3
+    消费了：WoTou 2
+    消费了：WoTou 1
