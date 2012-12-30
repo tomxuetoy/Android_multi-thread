@@ -37,8 +37,11 @@ public class MainActivity extends Activity {
 		bThreadRun = true;
 		MyThread1 myThread1 = new MyThread1();
 		new Thread(myThread1).start();
-		MyThread2 myThread2 = new MyThread2();
-		new Thread(myThread2).start();
+		MyThread2 mr2 = new MyThread2();
+		Thread mt2=new Thread(mr2);
+		mt2.setDaemon(true);
+		mt2.setPriority(Thread.MAX_PRIORITY);
+		mt2.start();
 	}
 
 	@Override
