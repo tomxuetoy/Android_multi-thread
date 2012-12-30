@@ -147,7 +147,7 @@ Run result of 'TestThread2' Logcat: (notice the thread IDs are different)
 
 
 
-Run result of 'ProducerConsumer2' Console output: (notice the thread IDs are different)
+Run result of 'ProducerConsumer2' Console output:
     生产了：WoTou 0
     消费了：WoTou 0
     生产了：WoTou 1
@@ -292,3 +292,23 @@ Run result of 'ProducerConsumer2' Console output: (notice the thread IDs are dif
     生产了：WoTou 19
     消费了：WoTou 19
 
+
+
+
+
+
+
+threadInterrupt: 
+    show how to use interrupt() to interrupt a thread
+
+Run result of 'threadInterrupt' Console output:
+    ------Sun Dec 30 23:20:10 CST 2012-----
+    ------Sun Dec 30 23:20:10 CST 2012-----
+    ------Sun Dec 30 23:20:11 CST 2012-----
+    ------Sun Dec 30 23:20:11 CST 2012-----
+    ------Sun Dec 30 23:20:11 CST 2012-----
+    ------Sun Dec 30 23:20:11 CST 2012-----
+    ------Sun Dec 30 23:20:11 CST 2012-----
+    ------Sun Dec 30 23:20:11 CST 2012-----
+    ------Sun Dec 30 23:20:11 CST 2012-----
+    ------Sun Dec 30 23:20:11 CST 2012-----
