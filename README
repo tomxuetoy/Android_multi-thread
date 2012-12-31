@@ -300,6 +300,7 @@ Run result of 'ProducerConsumer2' Console output:
 
 threadInterrupt: 
     show how to use interrupt() to interrupt a thread
+    The original code is from: http://www.huomo.cn/developer/article-1cf9.html
 
 Run result of 'threadInterrupt' Console output:
     ------Sun Dec 30 23:20:10 CST 2012-----
@@ -518,6 +519,8 @@ Run result of 'TestYield' Console output:
     t2: 100
 
 
+TestDeadLock:
+    The original code is from: http://www.huomo.cn/developer/article-1cf9.html
 
 Run result of 'TestDeadLock' Console output:
     flag=1
