@@ -517,3 +517,8 @@ Run result of 'TestYield' Console output:
     t2: 99
     t2: 100
 
+
+
+Run result of 'TestDeadLock' Console output:
+    flag=1
+    flag=0
