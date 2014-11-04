@@ -59,21 +59,21 @@ public class MainActivity extends Activity {
 
 	private Handler mHandler1 = new Handler() {
 		public void handleMessage(Message msg) {
-			switch (msg.what) {
-			case 1:
+//			switch (msg.what) {
+//			case 1:
 				updateEditText1();
-				break;
-			}
+//				break;
+//			}
 		};
 	};
 
 	private Handler mHandler2 = new Handler() {
 		public void handleMessage(Message msg) {
-			switch (msg.what) {
-			case 2:
+//			switch (msg.what) {
+//			case 2:
 				updateEditText2();
-				break;
-			}
+//				break;
+//			}
 		};
 	};
 
@@ -92,7 +92,7 @@ public class MainActivity extends Activity {
 		@Override
 		public void run() {
 			while (bThreadRun) {
-				// mHandler1.postDelayed(this, 1000);
+//				 mHandler1.postDelayed(this, 1000);
 				try {
 					Thread.sleep(300);
 				} catch (InterruptedException e) {
@@ -117,7 +117,7 @@ public class MainActivity extends Activity {
 		@Override
 		public void run() {
 			while (bThreadRun) {
-				// mHandler2.postDelayed(this, 1000);
+//				 mHandler2.postDelayed(this, 1000);
 				try {
 					Thread.sleep(300);
 				} catch (InterruptedException e) {

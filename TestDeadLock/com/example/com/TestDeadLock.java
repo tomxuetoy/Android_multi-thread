@@ -41,3 +41,9 @@ public class TestDeadLock implements Runnable {
 		t2.start();
 	}
 }
+
+/*
+运行结果：
+flag=1
+flag=0
+ */

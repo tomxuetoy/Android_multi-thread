@@ -30,23 +30,7 @@ m1
 m1 Thread=Thread-1 TestJoin@8dc8569 b=:98
 ----------------if comment out tt.join()----------------
 m1
-m1 Thread=Thread-1 TestJoin@7150bd4d b=:99
 m1
-m1 Thread=Thread-0 TestJoin@7150bd4d b=:98
-
-m1
-m1 Thread=Thread-0 TestJoin@7150bd4d b=:99
-m1
-m1 Thread=Thread-1 TestJoin@7150bd4d b=:98
-
-m1
-m1
-m1 Thread=Thread-1 TestJoin@7150bd4d b=:99
-m1 Thread=Thread-0 TestJoin@7150bd4d b=:98
-
-m1
-m1
-m1 Thread=Thread-0 TestJoin@6bbc4459 b=:98
-m1 Thread=Thread-1 TestJoin@6bbc4459 b=:98
-
- */
+m1 Thread=Thread-0 TestJoin@e6f7d2 b=:98
+m1 Thread=Thread-1 TestJoin@e6f7d2 b=:98
+*/

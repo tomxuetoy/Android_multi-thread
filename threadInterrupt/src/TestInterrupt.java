@@ -24,3 +24,15 @@ class MyThread extends Thread {
 		}
 	}
 }
+/*
+Result: only 9 outputs
+------Tue Nov 04 16:25:55 CST 2014-----
+------Tue Nov 04 16:25:55 CST 2014-----
+------Tue Nov 04 16:25:56 CST 2014-----
+------Tue Nov 04 16:25:56 CST 2014-----
+------Tue Nov 04 16:25:56 CST 2014-----
+------Tue Nov 04 16:25:56 CST 2014-----
+------Tue Nov 04 16:25:56 CST 2014-----
+------Tue Nov 04 16:25:56 CST 2014-----
+------Tue Nov 04 16:25:56 CST 2014-----
+*/
