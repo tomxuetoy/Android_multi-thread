@@ -43,7 +43,7 @@ public class TestDeadLock implements Runnable {
 }
 
 /*
-运行结果：
+Result:
 flag=1
 flag=0
  */
